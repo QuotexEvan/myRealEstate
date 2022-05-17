@@ -1,0 +1,42 @@
+.fullpage {
+  margin: 10px 40px 0px 40px;
+  color: #1d3557;
+  height: 91vh;
+}
+.fullImg {
+  width: 50%;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #a8dadc;
+  padding-bottom: 30px;
+}
+
+.bodyCont {
+  margin-top: 15px;
+  display: flex;
+}
+
+.textC {
+  width: 100%;
+}
+
+.textC > * {
+  padding: 5px 0px 5px 0px;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .bodyCont {
+    display: flex;
+    flex-direction: column;
+  }
+}

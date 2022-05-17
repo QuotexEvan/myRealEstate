@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 0px 30px;
+}
+.border {
+  height: 30px;
+  border-bottom: 3px solid rgba(168, 218, 220, 0.5);
+  margin-bottom: 20px;
+}
+.bannerImg {
+  height: 90vh;
+}
+.textContainer {
+  color: #d6ffc8;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: start;
+  padding-left: 20px;
+  backdrop-filter: blur(6px);
+}
+
+@media screen and (max-width: 700px) {
+  .bannerImg {
+    height: 100%;
+    width: 100%;
+  }
+  .textContainer {
+    font-size: 0.6rem;
+    padding-top: 2px;
+    padding-bottom: 5px;
+  }
+  .banner {
+    padding: 0;
+  }
+  .border {
+    margin-bottom: 7px;
+    height: 15px;
+  }
+}
